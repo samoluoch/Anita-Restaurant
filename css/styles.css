@@ -82,4 +82,18 @@ padding-bottom: 1%;
   height: 200px;
   width: 50%;
   color: white;
+  padding-bottom: 72%;
+  padding-righ
+  align: center;
+}
+#drink {
+  height: 200px;
+  width: 50%;
+  color: white;
+}
+#foods {
+  height: 200px;
+  width: 100%;
+  color:
+  align-items: center;
 }
