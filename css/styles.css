@@ -16,6 +16,7 @@
   width: 100%;
   color: white;
   align-items: center;
+  text-align: center;
 }
 #row2-2-2 {
   height: 200px;
@@ -26,13 +27,13 @@
   height: 200px;
   width: 100%;
   color: white;
-  padding-bottom:
+  text-align: center;
 }
 #breakfast {
   height: 200px;
   width: 100%;
   color: white;
-  padding-bottom:
+  text-align: center;
 }
 #row3-2 {
   height: 200px;
@@ -85,4 +86,24 @@ padding-bottom: 1%;
 }
 #Customers-About {
   float: center;
+}
+#foods {
+  align: center;
+  float: center;
+}
+#subscribe {
+  height: 200px;
+  width: 100%;
+  align: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+#menu {
+  background-color: #F15A29;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height:
 }
