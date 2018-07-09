@@ -1,6 +1,5 @@
 .jumbotron {
-  padding-right: 100px;
-  align: center:
+  height: 500px;
 }
 #row1 {
   color: white;
@@ -42,9 +41,6 @@
   width: 45%;
   color: white;
 }
-.jumbo img {
-  align: center;
-}
 .jumbo {
   width: auto;
   border: solid;
@@ -71,7 +67,7 @@
 padding-left: px;
 margin:
 }
-.container-fluid {
+.container-flui {
 align-items: center;
 padding-bottom: 1%;
 }
@@ -97,25 +93,11 @@ padding-bottom: 1%;
   padding-left: 100px;
   padding-right: 100px;
 }
-#subscribe {
+#subscription {
   height: 200px;
   width: 100%;
   align: center;
   color: white;
-  text-align: center;
-}
-#drink {
-  height: 200px;
-  width: 50%;
-  color: white;
-}
-#foods {
-  height: 200px;
-  width: 100%;
-  color:
-  align: center;
-  align-content: center;
-=======
   text-align: center;
   align-items: center;
 }
@@ -126,4 +108,17 @@ padding-bottom: 1%;
   color: white;
   width: 100%;
   height:
+}
+#email {
+  width: 300px;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+}
+#subscribe {
+  height: 40px;
+  width: 300px;
+  background-color: #F15A29;
+  color: white;
+  float: bottom;
 }
