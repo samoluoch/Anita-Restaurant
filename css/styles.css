@@ -17,6 +17,8 @@
   color: white;
   align-items: center;
   text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 #row2-2-2 {
   height: 200px;
@@ -76,13 +78,15 @@ padding-bottom: 1%;
 #HHPT {
 
 }
-#drinks1 {
+#drinks {
+  align-items: center;
 
 }
 #drinks2 {
-  height: 200px;
-  width: 50%;
+  height: 390px;
+  width: 45%;
   color: white;
+  padding-bottom: 100px;
 }
 #Customers-About {
   float: center;
@@ -90,6 +94,8 @@ padding-bottom: 1%;
 #foods {
   align: center;
   float: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 #subscribe {
   height: 200px;
