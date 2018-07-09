@@ -16,6 +16,9 @@
   width: 100%;
   color: white;
   align-items: center;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 #row2-2-2 {
   height: 200px;
@@ -26,13 +29,13 @@
   height: 200px;
   width: 100%;
   color: white;
-  padding-bottom:
+  text-align: center;
 }
 #breakfast {
   height: 200px;
   width: 100%;
   color: white;
-  padding-bottom:
+  text-align: center;
 }
 #row3-2 {
   height: 200px;
@@ -75,13 +78,31 @@ padding-bottom: 1%;
 #HHPT {
 
 }
-#drinks1 {
+#drinks {
+  align-items: center;
 
 }
 #drinks2 {
-  height: 200px;
-  width: 50%;
+  height: 390px;
+  width: 45%;
   color: white;
+  padding-bottom: 100px;
+}
+#Customers-About {
+  float: center;
+}
+#foods {
+  align: center;
+  float: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#subscribe {
+  height: 200px;
+  width: 100%;
+  align: center;
+  color: white;
+<<<<<<< HEAD
   padding-bottom: 72%;
   padding-righ
   align: center;
@@ -97,4 +118,16 @@ padding-bottom: 1%;
   color:
   align: center;
   align-content: center;
+=======
+  text-align: center;
+  align-items: center;
+}
+#menu {
+  background-color: #F15A29;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height:
+>>>>>>> master
 }
