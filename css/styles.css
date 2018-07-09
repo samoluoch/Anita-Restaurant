@@ -102,10 +102,7 @@ padding-bottom: 1%;
   width: 100%;
   align: center;
   color: white;
-<<<<<<< HEAD
-  padding-bottom: 72%;
-  padding-righ
-  align: center;
+  text-align: center;
 }
 #drink {
   height: 200px;
@@ -129,5 +126,4 @@ padding-bottom: 1%;
   color: white;
   width: 100%;
   height:
->>>>>>> master
 }
