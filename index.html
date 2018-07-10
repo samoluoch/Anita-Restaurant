@@ -39,29 +39,29 @@
      </div>
    </section>
 
-     <div class="col-md-3">
-       <section id="breakfast" style="background-image: url(images/assets/foodtop/breakfast.jpg)">
+    <div class="col-md-3">
+     <section id="breakfast" style="background-image: url(images/assets/foodtop/breakfast.jpg)">
        <div class="card">
          <h2>Breakfast</h2>
        </div>
      </section>
-     </div>
+    </div>
 
-     <div class="col-md-3">
-       <section id="lunch" style="background-image: url(images/assets/foodtop/lunch.jpg)">
+    <div class="col-md-3">
+      <section id="lunch" style="background-image: url(images/assets/foodtop/lunch.jpg)">
        <div class="card">
          <h2>Lunch</h2>
        </div>
-       </section>
-     </div>
+      </section>
+    </div>
 
-     <div class="col-md-3">
-       <section id="breakfast" style="background-image: url(images/assets/foodtop/breakfast.jpg)">
+    <div class="col-md-3">
+      <section id="breakfast" style="background-image: url(images/assets/foodtop/breakfast.jpg)">
        <div class="card">
          <h2>Dinner</h2>
        </div>
-     </section>
-     </div>
+      </section>
+    </div>
     </div>
    </div>
  </div>
@@ -74,13 +74,15 @@
      <div class="rows">
        <div class="col-md-6">
         <section id="row2-2">
+          <div class="col-md-6" id=fastFood1>
           <img src="images/assets/fastFood1.jpg">
+          </div>
+          <div class="col-md-6" id=fastFood2>
           <img src="images/assets/fastFood2.jpg">
-         <div class="card">
+          </div>
          </section>
-         </div>
        </div>
-      <div class="col-md-6">
+      <div class="col-md-6" id="fastfood1-text">
         <div class="card">
           <h1>Fast Food</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.
@@ -92,6 +94,7 @@ Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque vol
 Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus.
 
 Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet.
+<button class="btn btn-success" id="btn">VIEW GALLERY </button>
 
           </p>
         </div>
@@ -114,7 +117,7 @@ Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque vol
 Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus.
 
 Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet.
-
+  <button class="btn btn-primary" id="ntb"> VIEW GALLERY </button>
           </p>
         </div>
        </div>
@@ -141,23 +144,16 @@ Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulv
     <div class="jumbotron">
      <section id="foods" style="background-image: url(images/assets/foodtop/foodsBg.jpg)">
        <div class="col-md-3" id="FastFood">
-           <h1>Fast Food</h1>
+           <h2>Fast Food</h2>
            <img src="images/assets/fastfood/chickenBurger.jpg">
        </div>
        <div class="col-md-3" id="FastFood">
+           <h2>Drinks</h2>
            <img src="images/assets/fastfood/beefBurger.jpg">
        </div>
        <div class="col-md-3" id="FastFood">
+           <h2>Chicken</h2>
            <img src="images/assets/fastfood/chickenPizza.jpg">
-       </div>
-       <div class="col-md-3" id="drinkz">
-           <h1>Drinks</h1>
-       </div>
-       <div class="col-md-3" id="Chicken">
-           <h1>Chicken</h1>
-       </div>
-       <div class="col-md-3" id="Rice">
-           <h1>Rice</h1>
        </div>
       </section>
      </div>
@@ -171,8 +167,11 @@ Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulv
        <section id="Customers-About">
          <div class="col-md-6" id="customers">
          <div class="well">
+           <section id="happy">
            <h1>Our Happy Customers</h1>
-           <p>George Richard</p>
+           </section>
+           <p><strong>George Richard</strong></p>
+           <p>Great food. Menu is awesome, there foods are not only great but also in the right price. I'll highly recommend them</p>
            <img src="images/assets/customers/p1.png">
            <img src="images/assets/customers/p2.png">
            <img src="images/assets/customers/p3.png">
@@ -180,7 +179,9 @@ Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulv
          </div>
          <div class="col-md-6" id="about-menu">
          <div class="well">
+           <section id="about">
            <h1>About Menu</h1>
+           </section>
            <p>We are menu a little team of 7 members. Ut wisi enim and minim veniam, quis nos trudexer ci tation ullamcorper suscipit lob ortis nist ut aliquip ex ea commodo conse quat. Duisau tem vel eum iriure dolor in.</p>
          </div>
          </div>

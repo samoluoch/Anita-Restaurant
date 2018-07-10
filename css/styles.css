@@ -1,13 +1,10 @@
-.jumbotron {
-  height: 500px;
-}
+
 #row1 {
   color: white;
-  width: 100%;
+  width: auto;
   height: 600px;
   text-align: center;
   align-items: center;
-  background-repeat:
 }
 
 #breakfast {
@@ -18,11 +15,6 @@
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
-}
-#row2-2-2 {
-  height: 200px;
-  width: 200px;
-  align-items: center;
 }
 #lunch {
   height: 200px;
@@ -41,6 +33,9 @@
   width: 45%;
   color: white;
 }
+.jumbo img {
+  align: center;
+}
 .jumbo {
   width: auto;
   border: solid;
@@ -53,8 +48,6 @@
   width: 45%;
   padding-right: 103%;
 }
-.container-fluid {
-}
 #PartyTime {
   color: white;
   height: 100px;
@@ -63,20 +56,12 @@
   background-color: #F15A29;
   padding-right: 103%;
 }
-.section-body {
-padding-left: px;
-margin:
-}
-.container-flui {
+.container-fluid {
 align-items: center;
 padding-bottom: 1%;
 }
-#HHPT {
-
-}
 #drinks {
   align-items: center;
-
 }
 #drinks2 {
   height: 390px;
@@ -86,6 +71,7 @@ padding-bottom: 1%;
 }
 #Customers-About {
   float: center;
+  height:
 }
 #foods {
   align: center;
@@ -121,4 +107,33 @@ padding-bottom: 1%;
   background-color: #F15A29;
   color: white;
   float: bottom;
+}
+#btn {
+    background-color: white;
+    border-color: #F15A29;
+    color: #F15A29;
+}
+#ntb {
+    background-color: white;
+    border-color: #F15A29;
+    color: #F15A29;
+}
+#fastFood2 {
+  width: 100px;
+  height: 100px;
+}
+#row2-2 {
+  height: 300px;
+  width: 200px;
+  align-items: center;
+}
+#happy {
+  color: #F15A29;
+}
+#about {
+  color: #F15A29;
+  height: 115px;
+}
+#fastfood1-text {
+  width: 500px;
 }
