@@ -157,6 +157,7 @@ background-image: image("..images/assets/foodtop/foodsBg.jpg");
   height: 50px;
   text-align: center;
   margin-right: 0%;
+  padding-right: 377px;
 }
 #drink:hover {
 
@@ -169,4 +170,18 @@ background-image: image("..images/assets/foodtop/foodsBg.jpg");
   text-align: center;
   margin-right: 0%;
   margin-left: 0%;
+}
+#drink:hover {
+  color: red;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+#chicken:hover {
+  color: red;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  text-align: center;
 }
