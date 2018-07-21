@@ -6,6 +6,9 @@
   text-align: center;
   align-items: center;
   margin-bottom: -20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #breakfast {
@@ -226,4 +229,19 @@ margin-bottom: 10%;
 }
 #food {
   background-image: url("images/assets/foodtop/foodsBg.jpg");
+}
+#fastFood1 {
+  width: 100%;
+}
+#fastFood2 {
+  width: 100%;
+  height: 100%;
+}
+#drnk1 {
+  width: 100%;
+  height: %;
+}
+#drnk2 {
+  width: 100%;
+  float: right;
 }
