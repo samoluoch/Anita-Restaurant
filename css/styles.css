@@ -140,10 +140,14 @@ background-image: image("..images/assets/foodtop/foodsBg.jpg");
   width: 500px;
 }
 #fast {
-  background-color: #C0C0C0;
   color: white;
+  background-color: #808080;
   width: 150px;
+  height: 50px;
+  text-align: center;
 }
 #fast:hover {
-  #C0C0C0
+  color: #808080;
+  background-color: white;
+
 }
