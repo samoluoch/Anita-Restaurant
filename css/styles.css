@@ -245,3 +245,6 @@ margin-bottom: 10%;
   width: 100%;
   float: right;
 }
+#title {
+  position: bottom;
+}
