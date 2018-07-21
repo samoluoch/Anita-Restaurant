@@ -59,6 +59,7 @@
 .container-fluid {
 align-items: center;
 padding-bottom: 1%;
+background-image: image("..images/assets/foodtop/foodsBg.jpg");
 }
 #drinks {
   align-items: center;
@@ -78,6 +79,7 @@ padding-bottom: 1%;
   float: center;
   padding-left: 100px;
   padding-right: 100px;
+  background-image: image("..images/assets/foodtop/foodsBg.jpg");
 }
 #subscription {
   height: 200px;
@@ -136,4 +138,12 @@ padding-bottom: 1%;
 }
 #fastfood1-text {
   width: 500px;
+}
+#fast {
+  background-color: #C0C0C0;
+  color: white;
+  width: 150px;
+}
+#fast:hover {
+  #C0C0C0
 }
